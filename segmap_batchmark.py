@@ -6,7 +6,7 @@ import configparser
 
 result_dir = '/home/dongwonshin/Desktop/SLAM_eval/Experiment_Results'
 
-target_kitti_data_list = [1,4] # [0,1,2,4,5,6,7,8,9,10]
+target_kitti_data_list = [0,1,2,4,5,6,7,8,9,10]
 icp_configs = ['semantic_icp', 'ordinary_icp']
 odom_configs = ['with_odom', 'without_odom']
 
