@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+Loaded 1591 stamps and poses from: /home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/09_time.txt
+Loaded 1507 stamps and poses from: /home/dongwonshin/Desktop/SLAM_eval/2018-11-07_01:38:01/trajectory.csv
+Synchronizing trajectories...
+Found 1507 of max. 1591 possible matching timestamps between...
+	/home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/09_time.txt
+and:	/home/dongwonshin/Desktop/SLAM_eval/2018-11-07_01:38:01/trajectory.csv
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.00519649 -0.9999708   0.00560402]
+ [-0.04513304 -0.00583292 -0.99896396]
+ [ 0.99896747  0.00493818 -0.04516204]]
+Translation of alignment:
+[-59.52236973   3.75064711   0.74775848]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 1506 pairs with delta 1 (frames) among 1507 poses using consecutive pairs.
+Compared 1506 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = m (frames) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	6.484980
+      mean	1.577599
+    median	1.494502
+       min	0.559283
+      rmse	1.667938
+       sse	4189.719061
+       std	0.541480
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plots saved to /home/dongwonshin/Desktop/SLAM_eval/2018-11-07_01:38:01/rpe_eval/rpe_plot.pdf
+--------------------------------------------------------------------------------
+Saving results to /home/dongwonshin/Desktop/SLAM_eval/2018-11-07_01:38:01/rpe_eval/rpe_results.zip...
