@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+Loaded 1591 stamps and poses from: /home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/09_time.txt
+Loaded 1502 stamps and poses from: /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:24:59/trajectory.csv
+Synchronizing trajectories...
+Found 1502 of max. 1591 possible matching timestamps between...
+	/home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/09_time.txt
+and:	/home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:24:59/trajectory.csv
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 4.12649908e-02 -9.99147347e-01 -1.33423901e-03]
+ [-3.92457807e-02 -2.86510036e-04 -9.99229547e-01]
+ [ 9.98377168e-01  4.12855613e-02 -3.92241405e-02]]
+Translation of alignment:
+[-82.85754045   2.2206962   13.62708616]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 1501 pairs with delta 1 (frames) among 1502 poses using consecutive pairs.
+Compared 1501 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1 (frames) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	9.263333
+      mean	1.588174
+    median	1.503897
+       min	0.614154
+      rmse	1.663952
+       sse	4155.870706
+       std	0.496426
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plots saved to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:24:59/rpe_eval/rpe_plot.pdf
+--------------------------------------------------------------------------------
+Saving results to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:24:59/rpe_eval/rpe_results.zip...

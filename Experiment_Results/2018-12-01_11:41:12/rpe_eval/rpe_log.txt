@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+Loaded 1201 stamps and poses from: /home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/10_time.txt
+Loaded 946 stamps and poses from: /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-01_11:41:12/trajectory.csv
+Synchronizing trajectories...
+Found 941 of max. 1201 possible matching timestamps between...
+	/home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/10_time.txt
+and:	/home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-01_11:41:12/trajectory.csv
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.25326695 -0.96668067 -0.03720676]
+ [ 0.06708271  0.0208187  -0.9975302 ]
+ [ 0.96506775 -0.25513736  0.05957487]]
+Translation of alignment:
+[-5.44298631  2.34364395 -0.03053263]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 940 pairs with delta 1 (frames) among 941 poses using consecutive pairs.
+Compared 940 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1 (frames) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	4.760766
+      mean	1.455650
+    median	1.398567
+       min	0.039015
+      rmse	1.740441
+       sse	2847.388230
+       std	0.954055
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plots saved to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-01_11:41:12/rpe_eval/rpe_plot.pdf
+--------------------------------------------------------------------------------
+Saving results to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-01_11:41:12/rpe_eval/rpe_results.zip...

@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+Loaded 271 stamps and poses from: /home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/04_time.txt
+Loaded 240 stamps and poses from: /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_17:52:25/trajectory.csv
+Synchronizing trajectories...
+Found 240 of max. 271 possible matching timestamps between...
+	/home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/04_time.txt
+and:	/home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_17:52:25/trajectory.csv
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-0.02311349  0.9465075  -0.32185295]
+ [-0.0124298   0.321642    0.94677977]
+ [ 0.99965557  0.02588395  0.00433063]]
+Translation of alignment:
+[ 0.77894801 -1.19471664 15.58816577]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 239 pairs with delta 1 (frames) among 240 poses using consecutive pairs.
+Compared 239 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1 (frames) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	4.647729
+      mean	2.192085
+    median	2.125980
+       min	1.398953
+      rmse	2.259971
+       sse	1220.684658
+       std	0.549756
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plots saved to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_17:52:25/rpe_eval/rpe_plot.pdf
+--------------------------------------------------------------------------------
+Saving results to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_17:52:25/rpe_eval/rpe_results.zip...

@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+Loaded 1591 stamps and poses from: /home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/09_time.txt
+Loaded 1563 stamps and poses from: /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_19:11:34/trajectory.csv
+Synchronizing trajectories...
+Found 1563 of max. 1591 possible matching timestamps between...
+	/home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/09_time.txt
+and:	/home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_19:11:34/trajectory.csv
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[-8.03485816e-03 -9.99967701e-01  1.94507577e-04]
+ [-4.54439262e-02  1.70834392e-04 -9.98966877e-01]
+ [ 9.98934578e-01 -8.03539635e-03 -4.54438311e-02]]
+Translation of alignment:
+[-61.02047659   2.7740213    3.54147917]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Compared 1563 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	93.100601
+      mean	32.983463
+    median	22.410732
+       min	2.041294
+      rmse	41.763710
+       sse	2726196.341631
+       std	25.618327
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plots saved to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_19:11:34/ape_eval/ape_plot.pdf
+--------------------------------------------------------------------------------
+Saving results to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_19:11:34/ape_eval/ape_results.zip...

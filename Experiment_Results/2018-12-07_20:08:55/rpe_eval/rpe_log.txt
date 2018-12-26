@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+Loaded 2761 stamps and poses from: /home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/05_time.txt
+Loaded 2640 stamps and poses from: /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:08:55/trajectory.csv
+Synchronizing trajectories...
+Found 2640 of max. 2761 possible matching timestamps between...
+	/home/dongwonshin/Desktop/KITTI_odometry_dataset/poses/05_time.txt
+and:	/home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:08:55/trajectory.csv
+..with max. time diff.: 0.01 (s) and time offset: 0.0 (s).
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method...
+Rotation of alignment:
+[[ 0.01588942 -0.99979991 -0.01215217]
+ [-0.01858832  0.01185623 -0.99975692]
+ [ 0.99970096  0.01611145 -0.01839621]]
+Translation of alignment:
+[-1.65376454 -1.51912948  2.95962689]
+Scale correction: 1.0
+--------------------------------------------------------------------------------
+Found 2639 pairs with delta 1 (frames) among 2640 poses using consecutive pairs.
+Compared 2639 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1 (frames) using consecutive pairs
+(with SE(3) Umeyama alignment)
+
+       max	6.258140
+      mean	1.175456
+    median	1.224583
+       min	0.001556
+      rmse	1.283816
+       sse	4349.554984
+       std	0.516222
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plots saved to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:08:55/rpe_eval/rpe_plot.pdf
+--------------------------------------------------------------------------------
+Saving results to /home/dongwonshin/Desktop/SLAM_eval/Experiment_Results/2018-12-07_20:08:55/rpe_eval/rpe_results.zip...
